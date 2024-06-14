@@ -59,7 +59,7 @@ parser.add_argument(
     help="path to be saved after downloading.",
 )
 parser.add_argument(
-    "--use_hf_transfer", default=True, type=eval, help="Use hf-transfer, default: True"
+    "--use_hf_transfer", default=False, type=eval, help="Use hf-transfer, default: True"
 )
 parser.add_argument(
     "--use_mirror", default=True, type=eval, help="Download from mirror, default: True"
